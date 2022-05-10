@@ -3,6 +3,9 @@ uuid = "ea577fdd-99f4-4838-9a32-fe96fd4524b2"
 authors = ["Aman <aman.sharma2020b@vitstudent.ac.in> and contributors"]
 version = "0.1.0"
 
+[deps]
+CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
+
 [compat]
 julia = "1.6"
 
