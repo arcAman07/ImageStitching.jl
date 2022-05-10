@@ -12,7 +12,7 @@ function Homography{T}() where {T}
     return Homography{T}(SMatrix{3,3,T,9}(m))
 end
 
-function compute_homography(matches::Array{Keypoints})
+function compute_homography(matches::Array)
     # eigenvector of A^T A with the smallest eigenvalue
 
     # construct A matrix
